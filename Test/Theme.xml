@@ -1,0 +1,3 @@
+<BloxstrapCustomBootstrapper Version="0" Height="500" Width="500" AllowTransparency="True" WindowBackdropType="Aero" WindowCornerPreference="DoNotRound">
+	<MediaElement Volume="1"  Source="theme://Saint Aldi.mp4" LoadedBehaviour="Stop" UnloadedBehaviour="Close" Visibility="Visible" Height="500" Width="500"/>
+</BloxstrapCustomBootstrapper>

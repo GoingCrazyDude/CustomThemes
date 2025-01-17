@@ -1,0 +1,23 @@
+<!--
+			Made by Alexa (tezos.)
+					DO NOT REDISTRIBUTE
+													-->
+	<BloxstrapCustomBootstrapper  Version="0" Height="300" Width="300" Background="#000000" >
+		<TitleBar Title=" "  ShowMinimize="False"/>
+		<Image Source="theme://Dots.png" Height="6" Width="16" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,-22,2,0"/>
+		<Rectangle Height="185" Width="185" ZIndex="2" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-65,0,0" RadiusX="3" RadiusY="3">
+			<Rectangle.Fill>
+				<ImageBrush ImageSource="theme://AlbumCover.png" />
+			</Rectangle.Fill>
+		</Rectangle>
+		<Image Source="theme://AlbumCover.png" Height="206" Width="292" ZIndex="0"  Stretch="Fill" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-65,0,0">
+			<Image.Effect>
+					<BlurEffect KernelType="Gaussian" Radius="20" />
+			</Image.Effect>
+		</Image>
+		<Rectangle Height="206" Width="292" ZIndex="1" Fill="#000000"  Opacity="0.25" HorizontalAlignment="Center" VerticalAlignment="Center" Margin="0,-65,0,0" RadiusX="5" RadiusY="5" />
+		<Image Source="theme://Heart.png" Height="20" Width="22" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0,0,21,21"  />
+		<TextBlock Name="SongName" FontFamily="theme://#Gotham Medium" FontSize="20" Text="Heartless" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="6,0,0,30" />
+		<TextBlock Name="ArtisName" FontFamily="theme://#Gotham Light" FontSize="12" Text="The Weeknd" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="6,0,0,11" Opacity="0.5" />
+		<ProgressRing IsIndeterminate="True" Height="32" Width="32" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,14" Foreground="#FFFFFF" Background="#4D4D4D" />
+	</BloxstrapCustomBootstrapper>

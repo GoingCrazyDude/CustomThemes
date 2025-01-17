@@ -1,0 +1,17 @@
+<!--
+			Made by Alexa (tezos.)
+					DO NOT REDISTRIBUTE
+													-->
+
+<BloxstrapCustomBootstrapper Version="0" Height="700" Width="400" Background="#833B15" WindowBackdropType="Aero" WindowCornerPreference="DoNotRound">
+	<TitleBar Title="" Background="#FFFFFF" Opacity="0.01" ShowMinimize="False" ShowClose="False"/>
+	<Rectangle Height="700" Width="400" Fill="#FFFFFF" Opacity="0.01"/>
+	<Image Source="theme://Saint Aldi.gif" IsAnimated="True" RepeatBehaviour="Forever" Height="300" Width="300" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,28,0,0" />
+	<TextBlock FontFamily="theme://#SF Hello Medium" FontSize="24" Text="Saint Aldi" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,353,0,0" Width="300" TextAlignment="Left" />
+	<TextBlock FontFamily="theme://#SF Hello Medium" FontSize="24" Text="Kanye West" Opacity="0.75" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,382,0,0" Width="300" TextAlignment="Left" />
+	<ProgressBar Name="PrimaryProgressBar" Height="8" Width="300" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,436,0,0" Background="Gray" Foreground="White" Opacity="0.5" />
+	<TextBlock Name="StatusText" FontFamily="theme://#SF Hello Medium" FontSize="24" TextAlignment="Center" Text="if you're seeing this something went wrong" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,469,0,0" Width="300" TextWrapping="WrapWithOverflow" Height="100" />
+	<Button FontFamily="theme://#SF Hello Medium" FontSize="24"  Background="Transparent" BorderBrush="Transparent" Content="&#x10028A;" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="80,540,0,0" Width="90" Height="70" />
+	<Button Name="CancelButton" FontFamily="theme://#SF Hello Medium" FontSize="30" Background="Transparent" BorderBrush="Transparent" Content="&#x100286;" HorizontalAlignment="Center" VerticalAlignment="Top" Margin="0,540,0,0" Width="90" Height="70" />
+	<Button FontFamily="theme://#SF Hello Medium" FontSize="24" Background="Transparent" BorderBrush="Transparent" Content="&#x10028C;" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,540,80,0" Width="90"  Height="70" />
+</BloxstrapCustomBootstrapper>

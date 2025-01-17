@@ -1,0 +1,23 @@
+<!--
+			Made by Alexa (tezos.)
+					DO NOT REDISTRIBUTE
+													-->
+
+<BloxstrapCustomBootstrapper Version="0" Height="450" Width="800" Background="#000000">
+	<TitleBar Title="" ShowMinimize="False" />
+	<Image Source="theme://Animation.gif" ZIndex="2" IsAnimated="True" RepeatBehaviour="1x" Height="123" Width="250" VerticalAlignment="Bottom" HorizontalAlignment="Left" Margin="12, 0, 0, 12" />
+	<Image Source="theme://Background.png" ZIndex="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="1920" Width="1080" Margin="0, -32, 0, 0" />
+	<Image Source="theme://Logo.png" ZIndex="1" HorizontalAlignment="Center" VerticalAlignment="Center" Height="281" Width="500" Margin="0,0,0,18" />
+	<TextBlock Name="StatusText" FontFamily="theme://#Builder Sans Regular" FontSize="20" ZIndex="2" VerticalAlignment="Bottom" HorizontalAlignment="Right" Margin="0, 0, 24, 40" />
+	<ProgressBar Name="PrimaryProgressBar" ZIndex="1" Height="20" Width="802" IndicatorCornerRadius="0" CornerRadius="0" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,-2">
+		<ProgressBar.Background>
+			<SolidColorBrush Color="#818182" Opacity="0.9" />
+		</ProgressBar.Background>
+		<ProgressBar.Foreground>
+			<LinearGradientBrush EndPoint="1,0">
+				<GradientStop Color="#339BFF" Offset="0" />
+				<GradientStop Color="#76E1FF" Offset="1" />
+			</LinearGradientBrush>
+		</ProgressBar.Foreground>
+	</ProgressBar>
+</BloxstrapCustomBootstrapper>
