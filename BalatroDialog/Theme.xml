@@ -1,0 +1,7 @@
+<BloxstrapCustomBootstrapper Version="0" Height="472" Width="276" AllowTransparency="True" Background="Transparent">
+	<TitleBar Title="" Opacity="0" />
+	<Image Source="theme://Glass.png" Opacity="0.75" VerticalAlignment="Top" Height="372" Width="276" Margin="0,-30,0,0"/>
+	<Image Source="theme://Ace.png" Opacity="1" VerticalAlignment="Top"  Height="372" Width="276" Margin="0,-32,0,0"/>
+	<TextBlock Height="50" Margin="0,0,0,32" Width="276" TextWrapping="WrapWithOverflow" TextAlignment="Center" Name="StatusText" FontSize="20" FontFamily="theme://#m6x11plus Regular" Text="If you see this you're fucked lol" VerticalAlignment="Bottom" HorizontalAlignment="Center" />
+	<ProgressBar Name="PrimaryProgressBar" Height="34" BorderBrush="#FFFFFF" BorderThickness="4" Width="276" VerticalAlignment="Bottom" Foreground="#99CCE5" Background="#00000000" CornerRadius="6" IndicatorCornerRadius="2" />
+</BloxstrapCustomBootstrapper>
