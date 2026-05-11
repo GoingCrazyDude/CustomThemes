@@ -1,0 +1,15 @@
+<!--
+			Made by Alexa (tezos.)
+					DO NOT REDISTRIBUTE
+													-->
+
+<BloxstrapCustomBootstrapper BorderBrush="Transparent" IgnoreTitleBarInset="True" BorderThickness="0" Version="1" Width="640" Height="450" Background="#000000" >
+	<TitleBar Title="" ShowMinimize="False" ShowClose="False" Background="#01000000" />
+	<Image Source="theme://MainWindow.png" Panel.ZIndex="2" Margin="0,0,0,0" Width="666" Height="476" VerticalAlignment="Center" HorizontalAlignment="Center" />
+	<Border CornerRadius="24" VerticalAlignment="Bottom" Width="136" Height="32"  HorizontalAlignment="Center" Margin="0,0,0,54" Panel.ZIndex="4">
+		<Button Name="CancelButton" VerticalAlignment="Center" HorizontalAlignment="Center" Foreground="Red" Background="Transparent" Width="150" Height="40" Panel.ZIndex="4" />
+	</Border>
+	<TextBlock Name="StatusText" FontFamily="theme://Inter-VariableFont.woff2" FontWeight="Medium" Opacity="0.85" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0. 0, 0, 164" FontSize="16" Panel.ZIndex="4" />
+	<ProgressBar Name="PrimaryProgressBar" Panel.ZIndex="4" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,128" Width="450" Height="12" />
+	<Image Panel.ZIndex="3" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="0,0,0,54" Width="148" Height="36" Source="theme://CancelButton.png" />
+</BloxstrapCustomBootstrapper>
